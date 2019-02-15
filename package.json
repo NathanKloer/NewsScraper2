@@ -1,0 +1,30 @@
+{
+  "name": "nyt_react",
+  "version": "1.0.0",
+  "description": "NYT newspaper hw for coding class",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.12",
+    "morgan": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKloer/NYT_React.git"
+  },
+  "author": "NathanKloer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKloer/NYT_React/issues"
+  },
+  "homepage": "https://github.com/NathanKloer/NYT_React#readme"
+}
