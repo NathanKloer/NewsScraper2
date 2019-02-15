@@ -11,9 +11,6 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: false, limit: "5mb" }));
 app.use(express.json());
 app.use(express.static("public"));
-app.get("/", function(req, res) {
-  res.json(path.join(__dirname, "public/index.html"));
-});
 
 // Handlebars
 app.engine(
